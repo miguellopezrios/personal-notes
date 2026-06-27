@@ -1,5 +1,3 @@
-My personal notes related with the chapter 11 - Stream Processing of the book Designing Data-Intensive Applications. Let's go :D
-
 # Transmitting Event Streams
 
 The smallest unit in stream processing is an event (a small, immutable, and self-contained record representing something that happened at a specific point in time). These events are produced by a producer and consumed by a consumer. They can be stored and propagated through different mechanisms, such as files, databases, or messaging systems. However, in continuous processing systems, the overhead introduced by polling a datastore to detect changes can be significant. A better approach is to be notified whenever a new event arrives, which is where messaging systems come into play.

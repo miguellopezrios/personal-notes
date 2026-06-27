@@ -1,1 +1,5 @@
-Personal learnings notes. Each folder in this repository contains a summary of a different topic.
+# Personal learnings notes.
+
+This repository contains summaries of different topics. Most of the topics describe key concepts addressed in books such as Designing Data-Intensive Applications and in software engineering papers.
+
+Enjoy :D

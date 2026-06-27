@@ -1,7 +1,5 @@
 # Cassandra - A Decentralized Structured Storage System
 
-Summary of the Cassandra paper. Let's start!
-
 ## Introduction
 
 Cassandra was originally developed at Facebook to meet the scalability, availability, and reliability requirements of large-scale applications running on thousands of commodity servers, where failures are considered normal rather than exceptional. It was initially designed to support Inbox Search, a feature that allows users to search their Facebook Inbox. Since users were distributed across multiple geographical regions, Cassandra replicated data across data centers to reduce search latency while maintaining high availability. The system was also designed to handle extremely high write throughput, reaching billions of writes per day.
